@@ -195,7 +195,11 @@ Use the getAverageWordLength function below to do the following:
 */
 
 function getAverageWordLength(originalFlavors){
-  /*code here*/
+  for (let i = 0; i < originalFlavors.length; i++){
+    if (originalFlavors.includes(" ")){
+      return ((originalFlavors.length + 1) / originalFlavors.length)
+    }
+}
 }
 
 
